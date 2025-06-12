@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando tabelas</title>
+</head>
+
+<body>
+    <h1>Criando tabelas</h1>
+    <h2>Nesta aula vamos aprender a criar tabelas em HTML</h2>
+    <hr>
+    <thead>
+        <table border="1">
+            <tr style="background-color: #838383; color: white;">
+                <td></td>
+                <th style="padding: 3px;">1º Bimestre</th>
+                <th>2º Bimestre</th>
+                <th>3º Bimestre</th>
+                <th>4º Bimestre</th>
+            </tr>
+    </thead>
+    <tbody border="1" align="center">
+        <colgroup>
+            <col style="padding: 10px;" />
+            <col span="2" />
+        </colgroup>
+        <tr style="background-color: #cecece;">
+            <td>Matemática</td>
+            <td>80</td>
+            <td>75</td>
+            <td>60</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td>Física</td>
+            <td>65</td>
+            <td>40</td>
+            <td>85</td>
+            <td>92</td>
+        </tr>
+        <tr style="background-color: #cecece;">
+            <td>Química</td>
+            <td>75</td>
+            <td>60</td>
+            <td>75</td>
+            <td>60</td>
+        </tr>
+        <tr>
+            <td>Biologia</td>
+            <td>95</td>
+            <td>72</td>
+            <td>90</td>
+            <td>45</td>
+        </tr>
+        <tr style="background-color: #cecece;">
+            <td>Geografia</td>
+            <td>50</td>
+            <td>60</td>
+            <td>85</td>
+            <td>78</td>
+        </tr>
+    </tbody>
+    </table>
+</body>
+
+</html>
