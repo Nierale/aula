@@ -1,0 +1,19 @@
+* {
+    margin: 1px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 249, 241);
+}
+.titlepage{
+    padding: 5px;
+    text-align: center;
+}
+
+.formulario {
+    padding: 5px;
+    width: 500px;    
+}
+
