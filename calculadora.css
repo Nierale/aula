@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(255, 249, 241);
+}
+.titlepage{
+    text-align: center;
+}
+
+.formulario {
+    padding: 5px;
+    /* width: 600px; */
+}
+
+.form1 {
+    text-align: center;
+    position: relative;
+}
+
+.btn{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+}
