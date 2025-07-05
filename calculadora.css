@@ -1,18 +1,28 @@
 body {
     background-color: rgb(255, 249, 241);
+    
 }
 .titlepage{
     text-align: center;
 }
 
-.formulario {
-    padding: 5px;
-    /* width: 600px; */
+.wrapper{
+    align-items: center;
+    justify-items: center;
+    align-items: end;
 }
 
 .form1 {
+    box-sizing: border-box;
     text-align: center;
     position: relative;
+    width: 200px;
+    height: 100px;
+}
+
+.formulario {
+    padding: 5px;
+    /* width: 600px; */
 }
 
 .btn{
